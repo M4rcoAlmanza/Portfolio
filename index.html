@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My portfolio</title>
+        <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+        <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="semantic/semantic.js">
+        <link rel="stylesheet" type="text/css" href="semantic/semantic.min.js">
+        <style>
+            .init {
+              background-image: url('img/fondo.svg');
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+            .projects {
+              background-image: url('img/fondo2.svg');
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+            .big-text {
+                font-size: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="init" id="inicio">
+            <div class="ui text compact menu massive fixed top">
+                <a class="item right" href="#inicio">Home</a>
+                <div class="ui simple dropdown item">
+                    Networks
+                    <div class="menu">
+                        <a class="item" href="https://github.com/M4rcoAlmanza"><i class="github icon"></i>Github</a>
+                        <a class="item" href="#"><i class="linkedin icon"></i>LinkedIn</a>
+                        <a class="item" href="#"><i class="envelope icon"></i>Send email</a>
+                    </div>
+                </div>
+                <a class="item" href="#portfolio" data-variation="inverted">Portfolio</a>
+            </div>
+            <br><br><br><br><br><br>
+            <div class="ui grid">
+                <div class="one wide column"></div>
+                <div class="seven wide column middle aligned">
+                    <img class="ui fluid image" src="img/mono.svg">
+                </div>
+                <div class="one wide column"></div>
+                <div class="four wide middle aligned column">
+                    <h1 class="ui header massive massive">MARCO ALMANZA</h1>
+                    <h3>Computer engineering student</h3>
+                </div>
+                <div class="one wide column"></div>
+            </div>
+        </div>
+
+        <br>
+        <div class="ui grid projects">
+            <div class="two wide column"></div>
+            <div class="twelve wide column">
+                <div class="ui segments">
+
+                    <div class="ui segment center aligned ">
+                        <h1 style="margin-bottom: 0px;" id="portfolio">PROJECTS</h1>
+                    </div>
+
+                    <div class="ui segment">
+                        <div class="ui placeholder segment">
+                            <div class="ui two column very relaxed stackable grid">
+                                <div class="middle aligned column">
+                                    <div class="ui ">
+                                        <img class="ui fluid image" src="img/Dulceria.png">
+                                    </div>
+                                </div>
+                                <div class="middle aligned column">
+                                    <h1>BASIC LARAVEL CRUD PROJECT</h1>
+                                    <h2>A complete Laravel project using MySQL, <a href="">Materialize CSS</a>
+                                        ,Jetstream and implement Testing.
+                                    </h2>
+                                    <a href="">GitHub Link</a>
+                                </div>
+                            </div>
+                            <div class="ui vertical divider">
+                              
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="ui segment">
+                        <div class="ui placeholder segment">
+                            <div class="ui two column very relaxed stackable grid">                              
+                                <div class="middle aligned column">
+                                    <h1>THE OFFICE SNAKE</h1>
+                                    <h2>A new version of classic Snake game in Processing (Java), using
+                                        images created by myself, and sound of the original show
+                                    </h2>
+                                    <a href="">GitHub Link</a>
+                                </div>
+                                <div class="middle aligned column">
+                                    <div class="ui ">
+                                        <img class="ui fluid image" src="img/snake.JPG">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ui vertical divider">
+                              
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="ui segment">
+                      <p>Bottom</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="two wide column"></div>
+        </div>
+
+        
+    </body>
+</html>
